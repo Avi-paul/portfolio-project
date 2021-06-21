@@ -1,0 +1,155 @@
+*{
+    box-sizing:border-box ;
+    font-family: 'Fira Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+h1{
+    color: white;
+    font-size: 2.5rem;
+}
+a{
+    color:white ;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+ /*part-1-start*/
+.nav-bar{
+    background-color: #0c6168;
+    padding: 1% 7%;
+    text-align: center;
+}
+.nav-logo img{
+    width: 130px;
+    height: 130px;
+    
+}
+.nav-heading h1{
+text-align: center;
+padding: 20px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.nav-menu a{
+    margin: 5px 0;
+    padding: 5px 10px;
+    
+    background-color: turquoise;
+    border-radius: 20px;
+}
+   
+.nav-menu a:hover{
+    background-color: grey;
+}
+[class*="col-"]{
+    width: 100%;
+}
+[class*="col-"]{
+    float: left;
+    padding: 10x;
+}
+.nav-bar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*part-1-end*/
+/*part-2-start*/
+.profile p{
+    font-size: 2rem;
+    text-align: center;
+   
+}
+    .profile-disc h1{
+        color: black;
+        font-family: 'Satisfy', cursive;
+        font-size: 5rem;
+        text-align: center;
+    }
+   .profile-disc p{
+       color: grey;
+       text-align: center;
+       margin: 0 auto;
+       width: 90%;
+   }
+   .profile{
+       padding: 180px 10px;
+       position: relative;
+       text-align: center;
+   }
+   .profile .top-weather-icon{
+       width: 200px;
+    position: absolute;
+    right: 30px;
+   top: 30px;
+   transition: transform 2s;
+}
+.profile .top-weather-icon:hover{
+    transform: rotate(360deg);
+}
+.profile .buttom-weather-icon{
+    
+   position: absolute;
+   left: 30px;
+   bottom:0;
+   padding: 10px;
+   transition: transform 2s;
+}
+.profile .buttom-weather-icon:hover{
+    transform: rotate(360deg);
+}
+/*part-2-end*/
+/*part-3-start*/
+.about-me{
+    background-color: #0c6168;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.about-me-icon{
+    padding: 20px;
+    margin-top: 20px;
+}
+.about-me-icon img{
+    border-radius: 50%;
+    border: 2px white solid;
+    
+}
+.dotted-hr{
+    width: 100px;
+    border: 8px white dotted;
+    border-bottom: none;
+    margin-bottom: 40px;
+   
+
+}
+.about-me h2{
+    font-size: 2.5rem;
+
+}
+.about-me p{
+    text-align: center;
+}
+.cv-button{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 80px;
+border-radius: 25px;
+border: none;
+cursor: pointer;
+}
+.about-me::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/*part-3-end*/
+
